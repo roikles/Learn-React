@@ -5,8 +5,7 @@
   "author": "Rory Ashford <rory@roikles.com>",
   "config": {},
   "scripts": {
-    "setenv": "NODE_ENV=production && echo $NODE_ENV",
-    "reactify": "browserify -t [ babelify ] main.js -o index.js && uglifyjs index.js -o index.js"
+    "reactify": "NODE_ENV='production' && browserify -t [ babelify ] main.js -o index.js && uglifyjs index.js -o index.js"
   },
   "dependencies": {
     "babel-preset-react": "^6.11.1",
