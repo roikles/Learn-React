@@ -4,7 +4,9 @@
   "description": "Simplest package.json setup for React projects",
   "author": "Rory Ashford <rory@roikles.com>",
   "config": {},
-  "scripts": {},
+  "scripts": {
+    "reactify": "browserify -t [ babelify ] main.js -o index.js"
+  },
   "dependencies": {
     "babel-preset-react": "^6.11.1",
     "babelify": "^7.3.0",
