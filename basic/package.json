@@ -1,0 +1,14 @@
+{
+  "name": "React-Basic-Setup",
+  "version": "5.0.0",
+  "description": "Simplest package.json setup for React projects",
+  "author": "Rory Ashford <rory@roikles.com>",
+  "config": {},
+  "scripts": {},
+  "dependencies": {
+    "babel-preset-react": "^6.11.1",
+    "babelify": "^7.3.0",
+    "react": "^15.1.0",
+    "react-dom": "^15.1.0"
+  }
+}
